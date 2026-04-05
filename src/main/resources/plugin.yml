@@ -1,0 +1,21 @@
+name: AfkLimboConnector
+version: '1.0.0'
+main: com.dippycoder.afkLimboConnector.Main
+api-version: '1.21'
+author: DippyCoder
+description: Sends AFK players to a different sub-server after time
+commands:
+  afklimbo:
+    description: Main command for AfkLimboConnector
+    usage: /afklimbo reload
+    permission: afklimbo.reload
+    aliases:
+      - limbo
+      - afk
+      - afklimboconnector
+      - afkl
+      - afklc
+permissions:
+  afklimbo.reload:
+    description: Allows reloading the plugin configuration
+    default: op

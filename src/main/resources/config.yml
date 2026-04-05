@@ -1,0 +1,32 @@
+# AfkLimboConnector Configuration
+# Made by DippyCoder
+
+# Time (in seconds) before sending warning
+warning-time: 40
+
+# Time (in seconds) before executing action (kick or move)
+action-time: 60
+
+# What happens when player is AFK too long? (MOVE or KICK)
+action-type: "MOVE"
+
+# Server to send AFK players to (only used if action-type = MOVE)
+limbo-server: "limbo"
+
+# Should log to console when an action happens?
+log-actions: true
+
+# Bypass settings 
+bypass:
+  enabled: false
+  permission: "afklimbo.bypass"
+
+# Messages (you can use color codes with §)
+messages:
+  warning: "§8[§b§lAFK§r§8] §eYou have been inactive! You will be moved to limbo soon."
+  timeout: "§8[§b§lAFK§r§8] §cYou are being moved to limbo..."
+  move: "§8[§b§lAFK§r§8] §aYou are no longer AFK."
+  kick: "§8[§b§lAFK§r§8] §cYou were kicked for being AFK too long!"
+  no-permission: "§8[§b§lAFK§r§8] §cYou don't have permission to use this command!"
+  usage: "§8[§b§lAFK§r§8] §eUsage: /afklimbo reload"
+  reload: "§8[§b§lAFK§r§8] §aAfkLimboConnector configuration reloaded!"
