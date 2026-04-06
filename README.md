@@ -13,6 +13,9 @@ Is a minecraft plugin which works with [Velocity](https://papermc.io/downloads/v
 - all messages are editable
 - editable timings
 - afk logging in console
+- multi-limbo support (with priority)
+- permission-based limbo system (if enabled)
+- sounds for warning and un-afking (optional, configurable)
 
 **Config:**
 <details>
