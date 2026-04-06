@@ -22,12 +22,7 @@ public class Main extends JavaPlugin {
         getCommand("afklimbo").setExecutor(new AfkCommand(this));
 
         afkManager.startAfkChecker();
-        getLogger().info("--- AfkLimboConnector ---");
-        getLogger().info("");
-        getLogger().info("Loaded AFKLC");
-        getLogger().info("v.1.0.0 - by DippyCoder");
-        getLogger().info("");
-        getLogger().info("--- AfkLimboConnector ---");
+        sendEnableMessage();
     }
 
     @Override
@@ -37,5 +32,14 @@ public class Main extends JavaPlugin {
 
     public AfkManager getAfkManager() {
         return afkManager;
+    }
+
+    public void sendEnableMessage() {
+        getLogger().info("--- AfkLimboConnector ---");
+        getLogger().info("");
+        getLogger().info("Loaded AFKLC");
+        getLogger().info("v.1.1.0 - by DippyCoder");
+        getLogger().info("");
+        getLogger().info("--- AfkLimboConnector ---");
     }
 }
